@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2026-10-16T00:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram id="diagram_rpl" name="Use Case Diagram Rêve">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- System Boundary -->
+        <mxCell id="sys_box" value="Sistem Rêve Project (RPL Minggu 7)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;fontStyle=1;fillColor=#f8fafc;strokeColor=#64748b;spacingTop=12;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="230" y="80" width="380" height="460" as="geometry" />
+        </mxCell>
+
+        <!-- Actor: User -->
+        <mxCell id="actor_user" value="Pengguna / User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e0e7ff;strokeColor=#4338ca;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="60" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Actor: Admin -->
+        <mxCell id="actor_admin" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fef3c7;strokeColor=#d97706;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="260" width="60" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="uc1" value="Melihat Landing Page &amp; Fitur" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e0f2fe;strokeColor=#0284c7;fontStyle=0;fontSize=12;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="290" y="140" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc2" value="Autentikasi &amp; Login Akun" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e0f2fe;strokeColor=#0284c7;fontStyle=0;fontSize=12;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="290" y="230" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc3" value="Mengelola Data &amp; Dokumen Proyek" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fef9c3;strokeColor=#ca8a04;fontStyle=0;fontSize=12;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="290" y="320" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc4" value="Menjalankan Pengujian Sistem (Test Suite)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fef9c3;strokeColor=#ca8a04;fontStyle=0;fontSize=12;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="290" y="410" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Associations (Edges) -->
+        <mxCell id="edge1" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;" parent="1" source="actor_user" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge2" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;" parent="1" source="actor_user" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge3" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;" parent="1" source="actor_admin" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge4" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;" parent="1" source="actor_admin" target="uc3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge5" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;" parent="1" source="actor_admin" target="uc4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
