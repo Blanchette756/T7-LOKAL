@@ -1,0 +1,25 @@
+==================================================
+PROYEK REKAYASA PERANGKAT LUNAK (RPL) - MINGGU 7
+==================================================
+Nama : Rizky rahmad dani
+NPM  : 2440304001
+==================================================
+
+[1] LINGKUNGAN PENGEMBANGAN & SISTEM:
+- Sistem Operasi  : Windows 10 / 11 (64-bit)
+- Web Browser     : Google Chrome / Microsoft Edge / Mozilla Firefox
+- Bahasa / Skrip  : HTML5, CSS3, Modern JavaScript, C++ (C++11+)
+- Version Control : Git 2.x+ (GitHub Repository)
+- Modeling Tool   : Draw.io (Diagrams.net)
+
+[2] SPESIFIKASI KEBUTUHAN FUNGSIONAL (FUNCTIONAL REQUIREMENTS):
+- FR-01: Sistem menyediakan antarmuka pengguna responsif (Reve.html).
+- FR-02: Sistem menyediakan pengujian unit fungsional dasar (test.C++).
+- FR-03: Sistem memiliki pemodelan arsitektur Use Case Diagram (uml.drawio).
+- FR-04: Seluruh modul proyek tersimpan dan terdokumentasi dalam repositori Git.
+
+[3] SPESIFIKASI KEBUTUHAN NON-FUNGSIONAL (NON-FUNCTIONAL REQUIREMENTS):
+- NFR-01 (Usability)   : Tampilan web intuitif dan responsif pada berbagai ukuran layar.
+- NFR-02 (Performance) : Eksekusi program pengujian dan pemuatan web berjalan cepat dan ringan.
+- NFR-03 (Reliability) : Struktur folder proyek modular dan rapi sesuai standar RPL.
+==================================================
