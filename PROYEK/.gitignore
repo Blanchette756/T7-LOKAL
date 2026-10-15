@@ -1,0 +1,30 @@
+# ========================================
+# Output Kompilasi C / C++ (Binary & Object)
+# ========================================
+*.exe
+*.out
+*.o
+*.obj
+test_output
+test_output.exe
+
+# ========================================
+# Konfigurasi Editor / IDE (VS Code, dll)
+# ========================================
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ========================================
+# File Sampah Sistem Operasi (OS Junk Files)
+# ========================================
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ========================================
+# Log & Temporary Files
+# ========================================
+*.log
+*.tmp
